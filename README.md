@@ -4,7 +4,7 @@ This is the repository for the paper: "A Topological Data Analysis Framework for
 
 ## Data Availability
 
-The results of this study are based on data from the TCGA cohort. The data used was obtained from the Smooth Euler Characteristic Transform GitHub repository: https://github.com/lorinanthony/SECT?tab=readme-ov-file. This dataset includes data that has already been preprocessed. Additionally, we include another dataset that underwent an extra preprocessing step, which was directly used for computing the indices proposed in this study.
+The results of this study are based on data from the TCGA cohort. The data used was obtained from the Smooth Euler Characteristic Transform GitHub repository: https://github.com/lorinanthony/SECT?tab=readme-ov-file. This dataset includes data that has already been preprocessed, these are the files in the GBM folder. Additionally, we include another dataset that underwent an extra preprocessing step, which was directly used for computing the indices proposed in this study, these are the files in the GBM_nl folder.
 
 We also provide an Excel spreadsheet containing the computed integral values of the interior function for all the images in the cohort, which were subsequently used to compute the indices. Moreover, an Excel file with the computed indices for the entire set of images is included. Finally, we provide a Python script with the functions used to compute the value of the interior function at a given point, which can be used to calculate the indices discussed in the paper if needed.
 
