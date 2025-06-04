@@ -136,7 +136,7 @@ def interior_function(x,y,img,n_loops_img):
     for i in range(len(img[:,0])):
         for j in range(len(img[0,:])):
             if img[i,j]==1:
-                gbm_filtered[i,j]=g((i-len(img[:,0])/2)/l,(j-len(img[0,:])/2)/l)
+                gbm_filtered[i,j]=g(i/(l-1),j/(l-1))
             else:
                 gbm_filtered[i,j]=np.inf
 
